@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #494d5f;
+    height: 100vh;
+    width: 100vw;
+
+}
+.wrapper{
+    width: 100vw;
+    height: 1080px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    padding-top: 12rem;
+}
+
+.container{
+    
+    width: 50%;
+    text-align: center;
+}
+img{
+    width: 15rem;
+    margin-top: 3rem;
+    
+}
+
+h1{
+    font-size: 6rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #feeea9;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+p{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    color: #feeea9;
+}
+
+@media (max-width:700px) {
+    p{
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .wrapper{
+        margin-top: -112px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+}
